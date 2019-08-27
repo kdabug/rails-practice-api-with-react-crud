@@ -22,7 +22,7 @@ Your goal in this assignment is to extend your REST-ful Rails API so that you ca
 1. Fork
 2. Create a feature branch
 3. Clone
-4. Copy appropriate files from your [rails-api-with-react-lab](https://git.generalassemb.ly/sei-nyc-cicadas/rails-api-with-react-lab) lab into your cloned repo.
+4. Copy appropriate files from your [rails-api-with-react-lab](https://git.generalassemb.ly/sei-nyc-cicadas/rails-api-with-react-lab) into your cloned repo.
 5. Install/update any necessary packages/gems into cloned repo.
 6. Update your Rails controllers with any `before_action`.
 7. Add routes for `create` , `update`, `destroy` to your current Rails API.
