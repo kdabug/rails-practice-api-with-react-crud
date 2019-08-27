@@ -31,7 +31,7 @@ Your goal in this assignment is to extend your REST-ful Rails API so that you ca
 
 Time to update your React Frontend so that you can utilize all CRUD functionality from your Rails API.
 
-1. Make sure your 'client' folder exists in your rails app (copied from last lab).
+1. Make sure your 'client' folder exists in your rails app (copied from your [rails-api-with-react-lab](https://git.generalassemb.ly/sei-nyc-cicadas/rails-api-with-react-lab)).
 2. Make sure all dependencies installed in client folder.
 3. Make routes to:
    - Display all students
