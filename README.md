@@ -2,7 +2,7 @@
 
 # LAB: Rails API with Full CRUD
 
-This lab is meant to build your skills in creating a full crud app that accesses your Rails API. This homework builds on your [rails-api-with-react-lab](https://git.generalassemb.ly/sei-nyc-cicadas/rails-api-with-react-lab) homework. 
+This lab is meant to build your skills in creating a full crud app that accesses your Rails API. This homework builds on your [rails-api-with-react-lab](https://git.generalassemb.ly/sei-nyc-cicadas/rails-api-with-react-lab) lab. 
 
 **IT'S PARTY TIME!**
 
@@ -15,23 +15,23 @@ Your goal in this assignment is to extend your REST-ful Rails API so that you ca
 - Build your Rails API so that it can create, read, update, and delete data.
 - Connect to your API with a React frontend that applies full CRUD.
 - Style your app.
-- Deploye your new app (Rails API + React client) which now includes full CRUD functionality.
+- Deploy your new app (Rails API + React client) which now includes full CRUD functionality.
 
 ## Extending your current Rails API
 
 1. Fork
 2. Create a feature branch
 3. Clone
-4. Copy appropriate files from your [rails-api-with-react-lab](https://git.generalassemb.ly/sei-nyc-cicadas/rails-api-with-react-lab) homework into your cloned repo.
+4. Copy appropriate files from your [rails-api-with-react-lab](https://git.generalassemb.ly/sei-nyc-cicadas/rails-api-with-react-lab) lab into your cloned repo.
 5. Install/update any necessary packages/gems into cloned repo.
 6. Update your Rails controllers with any `before_action`.
 7. Add routes for `create` , `update`, `destroy` to your current Rails API.
 
 ## Adding to React
 
-Time to add the React Frontend to your Rails API.
+Time to update your React Frontend so that you can utilize all CRUD functionality from your Rails API.
 
-1. Create
+1. Make sure your 'client' folder exists in your rails app (copied from last lab).
 2. Make sure all dependencies installed in client folder.
 3. Make routes to:
    - Display all students
