@@ -2,7 +2,9 @@
 
 # LAB: Rails API with Full CRUD
 
-This lab is meant to build your skills in creating a full crud app that accesses Rails API. This homework builds on your [rails-api-with-react-lab](https://git.generalassemb.ly/sei-nyc-cicadas/rails-api-with-react-lab) homework. **IT'S PARTY TIME!**
+This lab is meant to build your skills in creating a full crud app that accesses your Rails API. This homework builds on your [rails-api-with-react-lab](https://git.generalassemb.ly/sei-nyc-cicadas/rails-api-with-react-lab) homework. 
+
+**IT'S PARTY TIME!**
 
 ![](https://media.giphy.com/media/Od2EuMZsnt3DW/giphy.gif)
 
