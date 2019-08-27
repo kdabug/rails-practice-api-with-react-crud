@@ -13,7 +13,7 @@ This lab is meant to build your skills in creating a full crud app that accesses
 Your goal in this assignment is to extend your REST-ful Rails API so that you can accomplish full CRUD functionality. You will:
 
 - Build your Rails API so that it can create, read, update, and delete data.
-- Connect to your API with a React frontend that applies full .
+- Connect to your API with a React frontend that applies full CRUD.
 - Style your app.
 - Deploye your new app (Rails API + React client) which now includes full CRUD functionality.
 
