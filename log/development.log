@@ -31,3 +31,43 @@ Migrating to CreateStudents (20190901135618)
   ↳ bin/rails:9
   [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ bin/rails:9
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mStudent Create (1.4ms)[0m  [1m[32mINSERT INTO "students" ("name", "description", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Arnold Shortman"], ["description", "Thinks people are inherently good, idealist, helpful, is not wearing a kilt but rather it is a long shirt that extends past his green sweater, impractically-shaped nogin"], ["photo", "https://upload.wikimedia.org/wikipedia/en/2/2a/HeyArnold%21.jpg"], ["created_at", "2019-09-02 12:06:05.928485"], ["updated_at", "2019-09-02 12:06:05.928485"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mStudent Create (0.3ms)[0m  [1m[32mINSERT INTO "students" ("name", "description", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Gerald Martin Johanssen"], ["description", "Athletic, loyal, street-smart, class president, hair icon"], ["photo", "https://heyarnold.fandom.com/wiki/Gerald_Johanssen?file=GeraldShow.png"], ["created_at", "2019-09-02 12:06:05.932290"], ["updated_at", "2019-09-02 12:06:05.932290"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mStudent Create (0.2ms)[0m  [1m[32mINSERT INTO "students" ("name", "description", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Helga G. Pataki"], ["description", "rough, cynical, favorite color is pink, closet poet, expert shrine-maker"], ["photo", "https://heyarnold.fandom.com/wiki/Helga_G._Pataki?file=Helga_Pataki.png"], ["created_at", "2019-09-02 12:06:05.934246"], ["updated_at", "2019-09-02 12:06:05.934246"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:11
+  [1m[36mStudent Create (0.2ms)[0m  [1m[32mINSERT INTO "students" ("name", "description", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Harold Berman"], ["description", "tough-talker, bully, body-shamed, acts out, relatively harmless"], ["photo", "https://heyarnold.fandom.com/wiki/Harold_Berman?file=Upscale-230765195014212.png"], ["created_at", "2019-09-02 12:06:05.936074"], ["updated_at", "2019-09-02 12:06:05.936074"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mStudent Create (0.2ms)[0m  [1m[32mINSERT INTO "students" ("name", "description", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Eugene Horowitz"], ["description", "accident prone, cheery, the class jinx, wears socks with sandals"], ["photo", "https://heyarnold.fandom.com/wiki/Eugene_Horowitz?file=EAFDB121-EC13-4F12-849E-37037A95E3D6.png"], ["created_at", "2019-09-02 12:06:05.938495"], ["updated_at", "2019-09-02 12:06:05.938495"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:13
+  [1m[36mStudent Create (0.2ms)[0m  [1m[32mINSERT INTO "students" ("name", "description", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Phoebe Heyerdahl"], ["description", "smartest person in the room, shy, makes \"long sweater\" an outfit"], ["photo", "https://heyarnold.fandom.com/wiki/Phoebe_Heyerdahl?file=Phoebe_(classic).png"], ["created_at", "2019-09-02 12:06:05.940120"], ["updated_at", "2019-09-02 12:06:05.940120"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "students"[0m
+  ↳ db/seeds.rb:15
